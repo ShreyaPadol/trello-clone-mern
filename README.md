@@ -10,7 +10,7 @@ This is an app built with MERN Stack, and you can access the live demo [HERE](ht
 Click the image to watch video!
 &nbsp;
 # Purpose
-My purpose of developing this project is to show what I can do both on the frontend and the backend. I would also like to point out that it is my first project as Mern stack.
+Our purpose of developing this project is to showcase what we can do both on the frontend and the backend.
 
 &nbsp;
 # Features
