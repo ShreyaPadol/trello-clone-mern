@@ -1,6 +1,9 @@
 # Trello Clone With MERN Stack!
 
 
+This is an app built with MERN Stack.
+
+![Trello clone video](https://i.ibb.co/6PRn1Bw/Ekran-g-r-nt-s-2021-12-23-16-21-36.png)
 # Purpose
 Our purpose of developing this project is to showcase what we can do both on the frontend and the backend.
 
