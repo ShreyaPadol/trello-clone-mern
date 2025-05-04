@@ -45,7 +45,7 @@ Our purpose of developing this project is to showcase what we can do both on the
 - For database, you can use local mongodb or mongo atlas. See [here](https://www.mongodb.com/)
 - Clone the repository:
 
-  ```git clone https://github.com/umurdogann/trello-clone-mern``` 
+  ```git clone https://github.com/ShreyaPadol/trello-clone-mern``` 
 
 - Change directory:
 
