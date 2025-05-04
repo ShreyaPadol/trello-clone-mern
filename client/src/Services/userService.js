@@ -13,7 +13,7 @@ import {
 } from "../Redux/Slices/userSlice";
 import { openAlert } from "../Redux/Slices/alertSlice";
 import setBearer from "../Utils/setBearer";
-const baseUrl = "http://localhost:5002/user/";
+const baseUrl = "http://localhost:5000/user/";
 
 export const register = async (
   { name, surname, email, password, repassword },

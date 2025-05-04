@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-	background-image: url('https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2400x1600/a651551a5214cb84963366cf9eaacb40/photo-1636207543865-acf3ad382295.jpg');
+	 background-image: linear-gradient(to right, #0b486b, #f56217);;
 	background-position: 50%;
 	background-size: cover;
 	height: 100vh;
@@ -13,14 +13,13 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
 	cursor: default;
-	font-weight: 400;
-	font-size: 1.5rem;
+	font-weight: 800;
+	font-size: 2.5rem;
 	text-align: center;
 	width: 100vw;
 	margin-bottom: 1rem;
-	color: lightblue;
-	text-shadow: 3px 0px 7px rgba(81, 67, 21, 0.8), -3px 0px 7px rgba(81, 67, 21, 0.8),
-		0px 4px 7px rgba(81, 67, 21, 0.8);
+	color:white;
+	
 	user-select: none;
 `;
 
@@ -39,7 +38,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Board = styled.div`
-	color: white;
+	background-image: linear-gradient(to bottom, #0b486b,black);;
 	padding: 0.6rem;
 	margin: 0 0.8rem 1rem 0.8rem;
 	width: 200px;
@@ -65,12 +64,9 @@ export const Board = styled.div`
 `;
 
 export const AddBoard = styled(Board)`
-	background-color: transparent;
-	background-image: linear-gradient(to right, #0b486b 0%, #f56217 51%, #0b486b 100%);
+	background-color: #0b486b;
 	font-size: 1.2rem;
-	transition: 2s;
-	opacity: 65%;
-	background-size: 200% auto;
+	opacity: 85%;
 	color: white;
 	display: flex;
 	align-items: center;
@@ -78,8 +74,7 @@ export const AddBoard = styled(Board)`
 	text-decoration: none;
 	font-weight: 600;
 	&:hover {
-		background-position: right center;
-		color: #fff;
-		transition: 400ms ease-in;
+		opacity: 100%;
+		font-weight: 700;
 	}
 `;

@@ -4,7 +4,7 @@ import MenuButton from './MenuButton';
 import { Hr } from '../../styled';
 import BoardIcon from '@mui/icons-material/Dashboard';
 import BackgroundIcon from '@mui/icons-material/Wallpaper';
-import ActivitySection from './ActivitySection/ActivitySection';
+// import ActivitySection from './ActivitySection/ActivitySection';
 const MainMenu = (props) => {
 	return (
 		<Container>
@@ -23,7 +23,7 @@ const MainMenu = (props) => {
 				/>
 			</ButtonContainer>
 			<Hr />
-			<ActivitySection />
+			{/* <ActivitySection /> */}
 		</Container>
 	);
 };
